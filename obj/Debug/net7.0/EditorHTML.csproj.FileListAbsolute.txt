@@ -1,0 +1,15 @@
+D:\Dotnet_balta\EditorHTML\bin\Debug\net7.0\EditorHTML.exe
+D:\Dotnet_balta\EditorHTML\bin\Debug\net7.0\EditorHTML.deps.json
+D:\Dotnet_balta\EditorHTML\bin\Debug\net7.0\EditorHTML.runtimeconfig.json
+D:\Dotnet_balta\EditorHTML\bin\Debug\net7.0\EditorHTML.dll
+D:\Dotnet_balta\EditorHTML\bin\Debug\net7.0\EditorHTML.pdb
+D:\Dotnet_balta\EditorHTML\obj\Debug\net7.0\EditorHTML.csproj.AssemblyReference.cache
+D:\Dotnet_balta\EditorHTML\obj\Debug\net7.0\EditorHTML.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dotnet_balta\EditorHTML\obj\Debug\net7.0\EditorHTML.AssemblyInfoInputs.cache
+D:\Dotnet_balta\EditorHTML\obj\Debug\net7.0\EditorHTML.AssemblyInfo.cs
+D:\Dotnet_balta\EditorHTML\obj\Debug\net7.0\EditorHTML.csproj.CoreCompileInputs.cache
+D:\Dotnet_balta\EditorHTML\obj\Debug\net7.0\EditorHTML.dll
+D:\Dotnet_balta\EditorHTML\obj\Debug\net7.0\refint\EditorHTML.dll
+D:\Dotnet_balta\EditorHTML\obj\Debug\net7.0\EditorHTML.pdb
+D:\Dotnet_balta\EditorHTML\obj\Debug\net7.0\EditorHTML.genruntimeconfig.cache
+D:\Dotnet_balta\EditorHTML\obj\Debug\net7.0\ref\EditorHTML.dll
