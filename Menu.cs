@@ -3,10 +3,15 @@ using System;
 namespace EditorHTML{
   public static class Menu{
     public static void Show(){   
-      // Console.BackgroundColor = ConsoleColor.Black;
-      // Console.ForegroundColor = ConsoleColor.DarkRed;
+      
+      Console.Clear();
+      Console.BackgroundColor = ConsoleColor.DarkGray;
+      Console.ForegroundColor = ConsoleColor.DarkRed;
       DrawScreen();
       writeOptions();
+      
+      var option = short.Parse(Console.ReadLine());
+      HandleMenuOption(option);
     }
     public static void Row(){
       Console.Write("+");
@@ -32,12 +37,10 @@ namespace EditorHTML{
       }
     }
     public static void DrawScreen(){
-      Console.Clear();
       Row();
       Colum();
       Row();
 
-      //var option = short.Parse(Console.ReadLine());
     }
 
     public static void writeOptions(){
@@ -59,10 +62,25 @@ namespace EditorHTML{
       Console.SetCursorPosition(3,9);
       Console.WriteLine("0 - Sair");
 
-      Console.SetCursorPosition(7,10);
+      Console.SetCursorPosition(3,10);
       Console.Write("Opcão: ");
     }
 
+    public static void HandleMenuOption(short option){
+      switch(option){
+        case 1: Editor.Show(); break;
+        case 2: Console.Write("View"); break;
+        case 0: {
+          Console.Clear();
+          Environment.Exit(0);
+          break;
+        }
+
+        default: Show(); break;
+
+
+      }
+    }
   }
 
 
