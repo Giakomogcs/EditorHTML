@@ -77,8 +77,6 @@ namespace EditorHTML{
         }
 
         default: Show(); break;
-
-
       }
     }
   }

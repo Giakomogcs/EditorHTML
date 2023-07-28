@@ -24,7 +24,36 @@ namespace EditorHTML{
       } while(Console.ReadKey().Key != ConsoleKey.Escape);
 
       Console.WriteLine("-------------");
-      Console.WriteLine("Deseja salvar o arquivo?");
+      Console.WriteLine(" Deseja salvar o arquivo? (y or n)");
+
+      var decision = Console.ReadLine().ToLower();
+      if (decision == "y") {
+        Save(file.ToString());
+      }
+
+      else if (decision == "n") {
+        Menu.Show();
+      }
+
+      else{
+        Start();
+      }
+    }
+
+    static void Save(string text){
+      Console.Clear();
+      Console.WriteLine("Qual caminho para salvar o arquivo?");
+      var nameFile = Console.ReadLine();
+      var path = @"D:\Dotnet_balta\EditorHTML\files\";
+
+      using(var file = new StreamWriter(path)){
+        file.Write(text);
+      }
+
+      Console.WriteLine($@"{path}+{nameFile}");
+      Console.ReadLine();
+
+      Menu.Show();
     }
   }
 
