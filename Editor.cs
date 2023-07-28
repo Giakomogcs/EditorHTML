@@ -42,15 +42,15 @@ namespace EditorHTML{
 
     static void Save(string text){
       Console.Clear();
-      Console.WriteLine("Qual caminho para salvar o arquivo?");
+      Console.WriteLine("Qual o nome do arquivo?");
       var nameFile = Console.ReadLine();
-      var path = @"D:\Dotnet_balta\EditorHTML\files\";
+      var path = $@"D:\Dotnet_balta\EditorHTML\files\{nameFile}";
 
       using(var file = new StreamWriter(path)){
         file.Write(text);
       }
 
-      Console.WriteLine($@"{path}+{nameFile}");
+      Console.WriteLine("Arquivo salvo com sucesso!!");
       Console.ReadLine();
 
       Menu.Show();
