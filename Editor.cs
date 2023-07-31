@@ -52,6 +52,7 @@ namespace EditorHTML{
 
       Console.WriteLine("Arquivo salvo com sucesso!!");
       Console.ReadLine();
+      Viewer.Show(text);
 
       Menu.Show();
     }
